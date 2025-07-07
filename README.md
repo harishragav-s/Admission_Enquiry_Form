@@ -48,21 +48,21 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
 
     <h1>Admission Enquiry</h1>
 
-    <form method="post">
-        <label for="fullname">Full Name:</label><br>
-        <input type="text" id="fullname" name="fullname" required><br><br>
+    <form>
+        Full Name:<br>
+        <input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        Email Address:<br>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
 
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
+        Phone Number:<br>
+        <input type="tel" name="phone" placeholder="Enter your phone number" required><br><br>
 
-        <label for="program">Program of Interest:</label><br>
-        <input type="text" id="program" name="program" required><br><br>
+        Program of Interest:<br>
+        <input type="text" name="program" placeholder="Enter program name" required><br><br>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+        Message:<br>
+        <textarea name="message" rows="5" cols="40" placeholder="Write your message here" required></textarea><br><br>
 
         <input type="submit" value="Submit">
         <input type="reset" value="Reset">
@@ -70,6 +70,7 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
 
 </body>
 </html>
+
 
 ```
 
