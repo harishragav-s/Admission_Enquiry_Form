@@ -1,5 +1,5 @@
 # Admission_Enquiry_Form
-## Date:
+## Date: 7/7/25
 
 ## Objective:
 To design a simple Admission Enquiry Form using basic HTML that collects student details such as name, contact, program of interest, and a message for further communication.
@@ -35,6 +35,39 @@ Use submit and reset at the bottom of the form.
 No CSS or JavaScript is to be included. Focus on structure and accessibility.
 
 ## HTML Code:
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission Enquiry Form</title>
+</head>
+<body>
+
+    <h1>Admission Enquiry</h1>
+
+    <form>
+        Full Name:<br>
+        <input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
+
+        Email Address:<br>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+        Phone Number:<br>
+        <input type="tel" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        Program of Interest:<br>
+        <input type="text" name="program" placeholder="Enter program name" required><br><br>
+
+        Message:<br>
+        <textarea name="message" rows="5" cols="40" placeholder="Write your message here" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
+```
 
 ## Output:
 
