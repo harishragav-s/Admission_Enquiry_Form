@@ -1,6 +1,9 @@
 # Admission_Enquiry_Form
 ## Date: 7/7/25
 
+### NAME : HARISH RAGAV S 
+
+### LIVE PAGE - https://harishragav-s.github.io/Admission_Enquiry_Form/
 ## Objective:
 To design a simple Admission Enquiry Form using basic HTML that collects student details such as name, contact, program of interest, and a message for further communication.
 
@@ -70,7 +73,7 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
 ```
 
 ## Output:
-![Screenshot 2025-07-07 131200](https://github.com/user-attachments/assets/add26009-f6f0-40e0-8f7f-2a6cb1ebe868)
+![image](https://github.com/user-attachments/assets/cdb485c7-e16d-4df6-b933-ea0f24ff2d0a)
 
 
 ## Result:
